@@ -13,8 +13,9 @@
 
     body {
       background-color: hsl(212, 45%, 89%);
-      margin: auto;
-      padding: 7%;
+      height: 100vh;
+      display: flex;
+      align-items: flex-start;
     }
 
     .qr-container {
@@ -22,6 +23,8 @@
       width: 300px;
       border-radius: 15px;
       margin: auto;
+      display: inline-block;
+      vertical-align: middle;
     }
 
     .qr-code {
@@ -57,14 +60,14 @@
 <body>
   <div style="text-align: center; margin: auto;">
     <div class="qr-container">
-      <img class="qr-code" src="./images/image-qr-code.png" width="90%" />
+      <img class="qr-code" src="./images/image-qr-code.png" onerror="this.src='https://cdn.discordapp.com/attachments/926995351871848500/1085327367037263882/image-qr-code.png'" width="90%" />
       <p class="title">Improve your front-end skills by building projects</p>
       <p class="text">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
     </div>
 
-    <div class="attribution" style="padding-top: 5%;">
+    <div class="attribution" style="padding-top: 5%; word-break: normal;">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Krampus</a>.
+      <br>Coded by <a href="http://linktr.ee/umKrampus">Krampus</a>.
     </div>
   </div>
 </body>
