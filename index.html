@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8">
@@ -13,54 +13,56 @@
 
     body {
       background-color: hsl(212, 45%, 89%);
-    }
-
-    .qr-code {
-      border-radius: 20px;
-      padding-left: 10px;
-      padding-right: 10px;
-      padding-top: 10px;
+      margin: auto;
+      padding: 7%;
     }
 
     .qr-container {
       background-color: hsl(0, 0%, 100%);
-      width: 375px;
-      border-radius: 20px;
+      width: 300px;
+      border-radius: 15px;
       margin: auto;
     }
 
-    p {
+    .qr-code {
+      border-radius: 30px;
+      padding: 4.5%;
+    }
 
+
+    p {
       font-family: Outfit;
       word-break: normal;
-      padding-left: 10px;
-      padding-right: 10px;
-      padding-bottom: 10px;
+      position: relative;
+      top: -5px;
+      margin: 0px 30px 0px 30px;
     }
 
     .title {
       font-weight: 700;
-      font-size: 30px;
+      font-size: 20px;
       color: hsl(218, 44%, 22%);
+      padding: 15px 0px 15px 0px;
     }
 
     .text {
-      font-size: 21px;
+      font-size: 15px;
       font-weight: 400;
       color: hsl(220, 15%, 55%);
+      padding: 0px 0px 20px 0px;
     }
   </style>
 </head>
 
 <body>
-  <div style="text-align: center;">
-    <div class="qr-container" >
-      <img class="qr-code" src="./images/image-qr-code.png" width="350" />
+  <div style="text-align: center; margin: auto;">
+    <div class="qr-container">
+      <img class="qr-code" src="./images/image-qr-code.png" width="90%" />
       <p class="title">Improve your front-end skills by building projects</p>
       <p class="text">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
     </div>
 
-    <div class="attribution" style="padding-top: 20px;">
+    <div class="attribution" style="padding-top: 5%;">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="#">Krampus</a>.
     </div>
