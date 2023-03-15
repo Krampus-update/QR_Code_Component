@@ -14,8 +14,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### Screenshot
@@ -32,44 +30,28 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+I was so happy when I learned how to use the onerror property for images! It saved me so much time and hassle when I wanted to share my web project with my friends. Instead of sending them two files (the index.html and the image), I could just send them one file that would load a different image if the original one was not found. This way, they could see how my project looked like with the right size and alignment. It was such a cool trick that made my life easier!
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+      <img class="qr-code" src="./images/image-qr-code.png" onerror="this.src='https://cdn.discordapp.com/attachments/926995351871848500/1085327367037263882/image-qr-code.png'" width="90%" />
 ```
+I was so frustrated with the vertical alignment of the page. I tried everything: changing the margins, padding, display, position, flexbox... Nothing worked. I spent half an hour banging my head against the wall. Then I realized it was something simple: I had a typo in the CSS file. I fixed it and voilà! The page looked perfect. I felt so relieved and happy. It was such a silly mistake but it taught me a valuable lesson: always check your code for typos!
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
+    body {
+      background-color: hsl(212, 45%, 89%);
+      height: 100vh;
+      display: flex;
+      align-items: flex-start;
+    }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+One of my goals for the future is to improve my group work skills and learn how to become more practical with programming. I think these are important abilities for finding a job in this field. To achieve this, I plan to take some online courses on collaboration tools and best practices, as well as practice coding on different platforms and projects. I also want to join some communities of programmers who can give me feedback and advice on how to improve my skills and portfolio.
 
 ## Author
 
@@ -77,10 +59,6 @@ Use this section to outline areas that you want to continue focusing on in futur
 - Frontend Mentor - [@Krampus-update](https://www.frontendmentor.io/profile/Krampus-update)
 - Twitter - [@Kr4mpus_](https://twitter.com/Kr4mpus_)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+I want to thank Malu (or Maria) for her invaluable help in testing my project. She was very patient, supportive and insightful throughout the process. I couldn't have done it without her!
