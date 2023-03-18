@@ -41,6 +41,7 @@ p {
 
 .title {
   font-weight: 700;
+  max-lines: 2;
   font-size: 22px;
   color: hsl(218, 44%, 22%);
   padding: 15px 0px 15px 0px;
@@ -48,6 +49,7 @@ p {
 
 .text {
   font-size: 17px;
+  max-lines: 3;
   font-weight: 400;
   color: hsl(220, 15%, 55%);
   padding: 0px 0px 20px 0px;
