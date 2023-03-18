@@ -1,75 +1,40 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | QR code component</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <title>Frontend Mentor | QR code component</title>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
-
-    body {
-      background-color: hsl(212, 45%, 89%);
-      height: 100vh;
-      display: flex;
-      align-items: flex-start;
-    }
-
-    .qr-container {
-      background-color: hsl(0, 0%, 100%);
-      width: 300px;
-      border-radius: 15px;
-      margin: auto;
-      display: inline-block;
-      vertical-align: middle;
-    }
-
-    .qr-code {
-      border-radius: 30px;
-      padding: 4.5%;
-    }
-
-
-    p {
-      font-family: Outfit;
-      word-break: normal;
-      position: relative;
-      top: -5px;
-      margin: 0px 30px 0px 30px;
-    }
-
-    .title {
-      font-weight: 700;
-      font-size: 20px;
-      color: hsl(218, 44%, 22%);
-      padding: 15px 0px 15px 0px;
-    }
-
-    .text {
-      font-size: 15px;
-      font-weight: 400;
-      color: hsl(220, 15%, 55%);
-      padding: 0px 0px 20px 0px;
-    }
-  </style>
-</head>
-
-<body>
-  <div style="text-align: center; margin: auto;">
-    <div class="qr-container">
-      <img class="qr-code" src="./images/image-qr-code.png" onerror="this.src='https://cdn.discordapp.com/attachments/926995351871848500/1085327367037263882/image-qr-code.png'" width="90%" />
-      <p class="title">Improve your front-end skills by building projects</p>
-      <p class="text">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  <body>
+    <div class="container">
+      <div class="qr-container">
+        <img
+          class="qr-code"
+          src="./images/image-qr-code.png"
+          onerror="this.src='https://cdn.discordapp.com/attachments/926995351871848500/1085327367037263882/image-qr-code.png'"
+          width="90%"
+          alt="Unfortunate this image failed to load, click in Frontend Mentor bellow to follow the link"
+        />
+        <p class="title">Improve your front-end skills by building projects</p>
+        <p class="text">
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </p>
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. <br />Coded by <a href="http://linktr.ee/umKrampus">Krampus</a>.
+      </div>
     </div>
-
-    <div class="attribution" style="padding-top: 5%; word-break: normal;">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      <br>Coded by <a href="http://linktr.ee/umKrampus">Krampus</a>.
-    </div>
-  </div>
-</body>
-
+  </body>
 </html>
