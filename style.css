@@ -14,8 +14,7 @@ body {
 
 .qr-container {
   background-color: hsl(0, 0%, 100%);
-  width: 320px;
-  height: 320;
+  width: 50%;
   border-radius: 15px;
   margin: auto;
   display: inline-block;
@@ -28,7 +27,7 @@ body {
 }
 
 img {
-    max-width: 90%;
+    width: 90%;
 }
 
 p {
