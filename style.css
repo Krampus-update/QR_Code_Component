@@ -15,6 +15,7 @@ body {
 .qr-container {
   background-color: hsl(0, 0%, 100%);
   max-width: 50%;
+  max-height: 45%;
   border-radius: 15px;
   margin: auto;
   display: inline-block;
@@ -52,9 +53,4 @@ p {
   font-weight: 400;
   color: hsl(220, 15%, 55%);
   padding: 0px 0px 20px 0px;
-}
-
-.attribution {
-  padding-top: 5%;
-  word-break: normal;
 }
